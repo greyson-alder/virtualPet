@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.header__nav {
+    width: 100%;
+}
+
+.header__navList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 50%;
+}
+
+.header__navList::before {
+    content: "";
+}

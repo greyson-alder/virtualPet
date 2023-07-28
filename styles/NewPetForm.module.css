@@ -1,0 +1,6 @@
+.newPetForm {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
