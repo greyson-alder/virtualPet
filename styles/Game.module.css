@@ -1,9 +1,13 @@
 .dot {
     background-color: lightblue;
+    transition: 1s;
+    margin: 25%
 }
 
 .dot.active {
     background-color: green;
+    transition: 1s;
+    margin: 10%;
 }
 
 .dot__container {

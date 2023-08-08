@@ -33,9 +33,9 @@ const SelectionGame = () => {
 
     const mappedDots = arrayOfDots.map((item, index) => {
             return index == activeDot ? 
-                <button key={index} className={`${styles.dot} ${styles.active}`} onClick={handleCorrectClick}>{item}</button> 
+                <button key={index} className={`${styles.dot} ${styles.active}`} onClick={handleCorrectClick}><img src="/star.svg" height="50" width="50"/></button> 
                 : 
-                <button key={index} className={styles.dot}>{item}</button>;
+                <button key={index} className={styles.dot}><img src="/circle.svg" height="50" width="50"/></button>;
     })
     
 
