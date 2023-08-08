@@ -1,4 +1,4 @@
-import styles from "../../styles/Game.module.css";
+import styles from "../../styles/FruitGame.module.css";
 import { useEffect, useState, useRef } from "react";
 
 const FruitGameContainer = () => {
